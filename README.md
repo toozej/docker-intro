@@ -3,9 +3,8 @@ Introduction to Docker, Docker Compose, and Docker Swarm for a class I'm teachin
 
 ## Create Docker image for use in following examples
 Build a Docker image with Apache web server hosting the files from the
-image/public-html directory. 
+public-html directory. 
 ```
-cd image
 docker build -t docker-intro-image .
 ```
 Now run a container called "docker-intro-run" with the image you've just built
